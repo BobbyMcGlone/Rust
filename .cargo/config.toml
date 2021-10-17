@@ -1,0 +1,8 @@
+[build]
+target = "avr-atmega328p.json"
+
+[unstable]
+build-std = ["core"]
+
+[dependencies]
+ruduino = "0.2.6"
